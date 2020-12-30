@@ -10,30 +10,16 @@ uses
   AdvSmoothPanel, AdvSmoothImageListBox, AdvSmoothComboBox, AdvSmoothListBox,
   AdvSmoothLabel, Vcl.StdCtrls, Vcl.Mask, AdvSmoothEdit, AdvSmoothEditButton,
   AdvSmoothDatePicker, AdvSmoothCalendar, AdvSmoothButton, AdvSmoothTabPager,
-  DBAdvLst, Vcl.ComCtrls, AdvListV, Data.DB, Vcl.Grids, Vcl.DBGrids;
+  DBAdvLst, Vcl.ComCtrls, AdvListV, Data.DB, Vcl.Grids, Vcl.DBGrids, AdvUtil,
+  AdvObj, BaseGrid, AdvGrid, AdvOfficeButtons, Vcl.ExtCtrls, AdvPanel;
 
 type
   TForm1 = class(TForm)
-    AdvSmoothCalendar1: TAdvSmoothCalendar;
-    AdvSmoothDatePicker1: TAdvSmoothDatePicker;
-    AdvSmoothLabel1: TAdvSmoothLabel;
-    AdvSmoothListBox1: TAdvSmoothListBox;
-    AdvSmoothComboBox1: TAdvSmoothComboBox;
-    AdvSmoothPanel1: TAdvSmoothPanel;
-    AdvSmoothMenu1: TAdvSmoothMenu;
-    AdvSmoothSpinner1: TAdvSmoothSpinner;
-    AdvSmoothToggleButton1: TAdvSmoothToggleButton;
-    AdvSmoothMegaMenu1: TAdvSmoothMegaMenu;
-    GDIPPictureContainer1: TGDIPPictureContainer;
-    AdvSmoothPopup1: TAdvSmoothPopup;
-    AdvSmoothTabPager1: TAdvSmoothTabPager;
-    AdvSmoothTabPager11: TAdvSmoothTabPage;
-    AdvSmoothTabPager12: TAdvSmoothTabPage;
-    AdvSmoothTabPager13: TAdvSmoothTabPage;
-    AdvSmoothButton1: TAdvSmoothButton;
-    DBAdvListView1: TDBAdvListView;
-    AdvListView1: TAdvListView;
-    DBGrid1: TDBGrid;
+    AdvPanel1: TAdvPanel;
+    AdvOfficeRadioButton1: TAdvOfficeRadioButton;
+    AdvOfficeRadioButton2: TAdvOfficeRadioButton;
+    AdvOfficeRadioButton3: TAdvOfficeRadioButton;
+    AdvStringGrid1: TAdvStringGrid;
   private
     { Private declarations }
   public
