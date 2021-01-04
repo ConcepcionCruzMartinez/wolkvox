@@ -244,6 +244,7 @@ object Form1: TForm1
       Height = 17
       Caption = 'Opcion 5'
       TabOrder = 5
+    end
 
     object AdvOfficeRadioButton6: TAdvOfficeRadioButton
       Left = 32
