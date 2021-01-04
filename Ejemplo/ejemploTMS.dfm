@@ -22,7 +22,7 @@ object Form1: TForm1
     Color = clWhite
     TabOrder = 0
     UseDockManager = True
-    Version = '2.5.10.7'
+    Version = '2.5.11.0'
     BorderColor = clBlack
     Caption.Color = clWhite
     Caption.ColorTo = clNone
@@ -59,7 +59,7 @@ object Form1: TForm1
       Alignment = taLeftJustify
       Caption = 'Opcion 1'
       ReturnIsTab = False
-      Version = '1.8.0.2'
+      Version = '1.8.0.3'
     end
     object AdvOfficeRadioButton2: TAdvOfficeRadioButton
       Left = 32
@@ -70,7 +70,7 @@ object Form1: TForm1
       Alignment = taLeftJustify
       Caption = 'Opcion 2'
       ReturnIsTab = False
-      Version = '1.8.0.2'
+      Version = '1.8.0.3'
     end
     object AdvOfficeRadioButton3: TAdvOfficeRadioButton
       Left = 32
@@ -81,7 +81,7 @@ object Form1: TForm1
       Alignment = taLeftJustify
       Caption = 'Opcion 3'
       ReturnIsTab = False
-      Version = '1.8.0.2'
+      Version = '1.8.0.3'
     end
     object AdvStringGrid1: TAdvStringGrid
       Left = 120
@@ -212,7 +212,18 @@ object Form1: TForm1
       SortSettings.HeaderColorTo = clWhite
       SortSettings.HeaderMirrorColor = clWhite
       SortSettings.HeaderMirrorColorTo = clWhite
-      Version = '8.5.7.2'
+      Version = '8.5.11.0'
+    end
+    object AdvOfficeRadioButton4: TAdvOfficeRadioButton
+      Left = 32
+      Top = 336
+      Width = 135
+      Height = 20
+      TabOrder = 4
+      Alignment = taLeftJustify
+      Caption = 'Opcion 4'
+      ReturnIsTab = False
+      Version = '1.8.0.3'
     end
     object AdvOfficeRadioButton4: TAdvOfficeRadioButton
       Left = 32
