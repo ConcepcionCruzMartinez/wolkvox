@@ -23,6 +23,7 @@ object Form1: TForm1
     TabOrder = 0
     UseDockManager = True
     Version = '2.5.10.7'
+    BorderColor = clBlack
     Caption.Color = clWhite
     Caption.ColorTo = clNone
     Caption.Font.Charset = DEFAULT_CHARSET
@@ -48,10 +49,6 @@ object Form1: TForm1
     StatusBar.Color = clWhite
     StatusBar.GradientDirection = gdVertical
     Text = ''
-    ExplicitLeft = 16
-    ExplicitTop = 24
-    ExplicitWidth = 300
-    ExplicitHeight = 200
     FullHeight = 200
     object AdvOfficeRadioButton1: TAdvOfficeRadioButton
       Left = 32
@@ -117,6 +114,7 @@ object Form1: TForm1
       ControlLook.FixedGradientTo = clWhite
       ControlLook.FixedGradientMirrorFrom = clWhite
       ControlLook.FixedGradientMirrorTo = clWhite
+      ControlLook.FixedGradientHoverFrom = clGray
       ControlLook.FixedGradientHoverTo = clWhite
       ControlLook.FixedGradientHoverMirrorFrom = clWhite
       ControlLook.FixedGradientHoverMirrorTo = clWhite
@@ -215,6 +213,17 @@ object Form1: TForm1
       SortSettings.HeaderMirrorColor = clWhite
       SortSettings.HeaderMirrorColorTo = clWhite
       Version = '8.5.7.2'
+    end
+    object AdvOfficeRadioButton4: TAdvOfficeRadioButton
+      Left = 32
+      Top = 336
+      Width = 135
+      Height = 20
+      TabOrder = 4
+      Alignment = taLeftJustify
+      Caption = 'Opcion 4'
+      ReturnIsTab = False
+      Version = '1.8.0.2'
     end
   end
 end
