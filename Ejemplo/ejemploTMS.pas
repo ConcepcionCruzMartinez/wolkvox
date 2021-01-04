@@ -21,6 +21,7 @@ type
     AdvOfficeRadioButton3: TAdvOfficeRadioButton;
     AdvStringGrid1: TAdvStringGrid;
     AdvOfficeRadioButton4: TAdvOfficeRadioButton;
+    RadioButton5: TRadioButton;
   private
     { Private declarations }
   public
