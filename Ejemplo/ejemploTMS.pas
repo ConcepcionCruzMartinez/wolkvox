@@ -27,6 +27,7 @@ type
     AdvOfficeRadioButton7: TAdvOfficeRadioButton;
 
     AdvOfficeRadioButton9: TAdvOfficeRadioButton;
+    AdvOfficeRadioButton5: TAdvOfficeRadioButton;
 
     AdvOfficeRadioButton8: TAdvOfficeRadioButton;
     AdvOfficeRadioButton10: TAdvOfficeRadioButton;
@@ -49,6 +50,7 @@ procedure TForm1.AdvOfficeRadioButton10Click(Sender: TObject);
 begin
 AdvOfficeRadioButton9.Visible:=False;
 AdvOfficeRadioButton8.Visible:=False;
+
 end;
 
 end.

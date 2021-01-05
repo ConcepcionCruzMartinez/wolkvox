@@ -211,7 +211,7 @@ object Form1: TForm1
       SortSettings.HeaderColorTo = clWhite
       SortSettings.HeaderMirrorColor = clWhite
       SortSettings.HeaderMirrorColorTo = clWhite
-      Version = '8.5.9.0'
+      Version = '8.5.11.0'
       RowHeights = (
         22
         22
@@ -287,12 +287,39 @@ object Form1: TForm1
       ReturnIsTab = False
       Version = '1.8.0.3'
     end
+
     object AdvOfficeRadioButton10: TAdvOfficeRadioButton
+	  Alignment = taLeftJustify
+      Caption = 'Opcion 9'
+      ReturnIsTab = False
+      Version = '1.8.0.3'
+	  Alignment = taLeftJustify
+      Caption = 'Opcion 9'
+      ReturnIsTab = False
+      Version = '1.8.0.3'
+    end
+
+    object AdvOfficeRadioButton5: TAdvOfficeRadioButton
+
+
+
       Left = 32
       Top = 511
       Width = 135
       Height = 20
       TabOrder = 10
+      Alignment = taLeftJustify
+      Caption = 'Opcion 9'
+      ReturnIsTab = False
+      Version = '1.8.0.3'
+    end
+    object AdvOfficeRadioButton10: TAdvOfficeRadioButton
+      Left = 240
+      Top = 493
+      Width = 135
+      Height = 20
+      TabOrder = 11
+
       OnClick = AdvOfficeRadioButton10Click
       Alignment = taLeftJustify
       Caption = 'Opcion 10'
