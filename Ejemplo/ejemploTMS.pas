@@ -27,8 +27,11 @@ type
     AdvOfficeRadioButton7: TAdvOfficeRadioButton;
 
     AdvOfficeRadioButton9: TAdvOfficeRadioButton;
+    AdvOfficeRadioButton5: TAdvOfficeRadioButton;
 
     AdvOfficeRadioButton8: TAdvOfficeRadioButton;
+    AdvOfficeRadioButton10: TAdvOfficeRadioButton;
+    procedure AdvOfficeRadioButton10Click(Sender: TObject);
 
   private
     { Private declarations }
@@ -42,5 +45,10 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm1.AdvOfficeRadioButton10Click(Sender: TObject);
+begin
+  AdvOfficeRadioButton8.Visible:=False;
+end;
 
 end.
