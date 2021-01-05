@@ -22,7 +22,7 @@ object Form1: TForm1
     Color = clWhite
     TabOrder = 0
     UseDockManager = True
-    Version = '2.5.10.7'
+    Version = '2.5.11.0'
     BorderColor = clBlack
     Caption.Color = clWhite
     Caption.ColorTo = clNone
@@ -49,6 +49,8 @@ object Form1: TForm1
     StatusBar.Color = clWhite
     StatusBar.GradientDirection = gdVertical
     Text = ''
+    ExplicitLeft = 8
+    ExplicitTop = 104
     FullHeight = 200
     object AdvOfficeRadioButton1: TAdvOfficeRadioButton
       Left = 32
@@ -59,7 +61,7 @@ object Form1: TForm1
       Alignment = taLeftJustify
       Caption = 'Opcion 1'
       ReturnIsTab = False
-      Version = '1.8.0.2'
+      Version = '1.8.0.3'
     end
     object AdvOfficeRadioButton2: TAdvOfficeRadioButton
       Left = 32
@@ -70,7 +72,7 @@ object Form1: TForm1
       Alignment = taLeftJustify
       Caption = 'Opcion 2'
       ReturnIsTab = False
-      Version = '1.8.0.2'
+      Version = '1.8.0.3'
     end
     object AdvOfficeRadioButton3: TAdvOfficeRadioButton
       Left = 32
@@ -81,7 +83,7 @@ object Form1: TForm1
       Alignment = taLeftJustify
       Caption = 'Opcion 3'
       ReturnIsTab = False
-      Version = '1.8.0.2'
+      Version = '1.8.0.3'
     end
     object AdvStringGrid1: TAdvStringGrid
       Left = 160
@@ -212,7 +214,7 @@ object Form1: TForm1
       SortSettings.HeaderColorTo = clWhite
       SortSettings.HeaderMirrorColor = clWhite
       SortSettings.HeaderMirrorColorTo = clWhite
-      Version = '8.5.7.2'
+      Version = '8.5.11.0'
       RowHeights = (
         22
         22
@@ -234,18 +236,16 @@ object Form1: TForm1
       Alignment = taLeftJustify
       Caption = 'Opcion 4'
       ReturnIsTab = False
-      Version = '1.8.0.2'
+      Version = '1.8.0.3'
     end
-
     object RadioButton5: TRadioButton
       Left = 32
       Top = 392
       Width = 113
       Height = 17
       Caption = 'Opcion 5'
-      TabOrder = 5
+      TabOrder = 6
     end
-
     object AdvOfficeRadioButton6: TAdvOfficeRadioButton
       Left = 32
       Top = 424
@@ -256,7 +256,17 @@ object Form1: TForm1
       Caption = 'Opcion 6'
       ReturnIsTab = False
       Version = '1.8.0.3'
-
+    end
+    object AdvOfficeRadioButton7: TAdvOfficeRadioButton
+      Left = 32
+      Top = 450
+      Width = 135
+      Height = 20
+      TabOrder = 7
+      Alignment = taLeftJustify
+      Caption = 'Opcion 7'
+      ReturnIsTab = False
+      Version = '1.8.0.3'
     end
   end
 end

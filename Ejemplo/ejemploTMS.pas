@@ -24,6 +24,7 @@ type
     RadioButton5: TRadioButton;
 
     AdvOfficeRadioButton6: TAdvOfficeRadioButton;
+    AdvOfficeRadioButton7: TAdvOfficeRadioButton;
 
   private
     { Private declarations }
