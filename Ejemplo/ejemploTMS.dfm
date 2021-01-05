@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 479
+  ClientHeight = 541
   ClientWidth = 802
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -17,7 +17,7 @@ object Form1: TForm1
     Left = 0
     Top = 0
     Width = 802
-    Height = 479
+    Height = 541
     Align = alClient
     Color = clWhite
     TabOrder = 0
@@ -49,8 +49,7 @@ object Form1: TForm1
     StatusBar.Color = clWhite
     StatusBar.GradientDirection = gdVertical
     Text = ''
-    ExplicitLeft = 8
-    ExplicitTop = 104
+    ExplicitHeight = 479
     FullHeight = 200
     object AdvOfficeRadioButton1: TAdvOfficeRadioButton
       Left = 32
@@ -214,7 +213,7 @@ object Form1: TForm1
       SortSettings.HeaderColorTo = clWhite
       SortSettings.HeaderMirrorColor = clWhite
       SortSettings.HeaderMirrorColorTo = clWhite
-      Version = '8.5.11.0'
+      Version = '8.5.9.0'
       RowHeights = (
         22
         22
@@ -265,6 +264,17 @@ object Form1: TForm1
       TabOrder = 7
       Alignment = taLeftJustify
       Caption = 'Opcion 7'
+      ReturnIsTab = False
+      Version = '1.8.0.3'
+    end
+    object AdvOfficeRadioButton9: TAdvOfficeRadioButton
+      Left = 32
+      Top = 485
+      Width = 135
+      Height = 20
+      TabOrder = 8
+      Alignment = taLeftJustify
+      Caption = 'Opcion 9'
       ReturnIsTab = False
       Version = '1.8.0.3'
     end
