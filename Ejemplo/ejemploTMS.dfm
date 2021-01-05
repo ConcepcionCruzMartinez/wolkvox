@@ -49,7 +49,6 @@ object Form1: TForm1
     StatusBar.Color = clWhite
     StatusBar.GradientDirection = gdVertical
     Text = ''
-    ExplicitHeight = 479
     FullHeight = 200
     object AdvOfficeRadioButton1: TAdvOfficeRadioButton
       Left = 32
@@ -94,8 +93,6 @@ object Form1: TForm1
       FixedColor = clWhite
       ScrollBars = ssBoth
       TabOrder = 3
-      GridLineColor = 13948116
-      GridFixedLineColor = 11250603
       HoverRowCells = [hcNormal, hcSelected]
       ActiveCellFont.Charset = DEFAULT_CHARSET
       ActiveCellFont.Color = 4474440
@@ -160,7 +157,7 @@ object Form1: TForm1
         'Clear')
       FixedRowHeight = 22
       FixedFont.Charset = DEFAULT_CHARSET
-      FixedFont.Color = 3881787
+      FixedFont.Color = clWindowText
       FixedFont.Height = -11
       FixedFont.Name = 'Tahoma'
       FixedFont.Style = [fsBold]
@@ -208,6 +205,7 @@ object Form1: TForm1
       SearchFooter.MatchCaseCaption = 'Match case'
       SearchFooter.ResultFormat = '(%d of %d)'
       SelectionColor = 13744549
+      SelectionTextColor = clWindowText
       SortSettings.DefaultFormat = ssAutomatic
       SortSettings.HeaderColor = clWhite
       SortSettings.HeaderColorTo = clWhite
@@ -267,29 +265,38 @@ object Form1: TForm1
       ReturnIsTab = False
       Version = '1.8.0.3'
     end
-
     object AdvOfficeRadioButton9: TAdvOfficeRadioButton
       Left = 32
       Top = 485
-	  Width = 135
+      Width = 135
       Height = 20
-      TabOrder = 8
+      TabOrder = 9
       Alignment = taLeftJustify
-	  Caption = 'Opcion 9'
-	  ReturnIsTab = False
+      Caption = 'Opcion 9'
+      ReturnIsTab = False
       Version = '1.8.0.3'
-	end
-
+    end
     object AdvOfficeRadioButton8: TAdvOfficeRadioButton
       Left = 32
       Top = 74
-
       Width = 135
       Height = 20
       TabOrder = 8
       Alignment = taLeftJustify
-	  Caption = 'Opcion 8'
-	  ReturnIsTab = False
+      Caption = 'Opcion 8'
+      ReturnIsTab = False
+      Version = '1.8.0.3'
+    end
+    object AdvOfficeRadioButton10: TAdvOfficeRadioButton
+      Left = 32
+      Top = 511
+      Width = 135
+      Height = 20
+      TabOrder = 10
+      OnClick = AdvOfficeRadioButton10Click
+      Alignment = taLeftJustify
+      Caption = 'Opcion 10'
+      ReturnIsTab = False
       Version = '1.8.0.3'
     end
   end
