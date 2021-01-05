@@ -268,5 +268,16 @@ object Form1: TForm1
       ReturnIsTab = False
       Version = '1.8.0.3'
     end
+    object AdvOfficeRadioButton8: TAdvOfficeRadioButton
+      Left = 32
+      Top = 74
+      Width = 135
+      Height = 20
+      TabOrder = 8
+      Alignment = taLeftJustify
+      Caption = 'Opcion 8'
+      ReturnIsTab = False
+      Version = '1.8.0.3'
+    end
   end
 end
